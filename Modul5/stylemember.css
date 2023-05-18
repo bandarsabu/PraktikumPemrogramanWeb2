@@ -1,0 +1,82 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-image: url();
+	background-size: cover;
+	font-family: "forte";
+}
+ header{
+	text-align: left;
+	color: yellow;
+	background-color: #ffffff;
+}
+
+
+section:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+nav{
+	float: left;
+	width: 20%;
+	padding: 10px;
+}
+
+article{
+	height: 650px;
+	float: left;
+	width: 100%;
+	padding: 10px;
+}
+
+footer{
+	text-align: center;
+	color: white;
+	padding: 10px;
+	padding-left: 0px;
+	background: tr;
+}
+
+.social-media-button{
+	border: none;
+	color: white;
+	font-size: 16px;
+	padding: 0.5em 1em;
+	float: center;
+}
+
+.social-media-button:hover{
+	opacity: 0.9;
+}
+
+.social-media-button.icon:before{
+	font-family: "Ionicons";
+	padding-right: 10px;
+}
+
+/* facebook*/
+.social-media-button.icon.facebook:before {
+	content: '\f231';
+}
+
+.social-media-button.facebook{
+	background: #8b008b;
+	float: right;
+	margin: 10px 10px 20px 10px;
+}
+
+
+.social-media-button.icon.intagram:before {
+	content: '\f351';
+}
+
+.social-media-button.intagram{
+	background: #8b008b;
+	float: right;
+	margin: 10px 10px 20px 10px;
+}
+
+ 

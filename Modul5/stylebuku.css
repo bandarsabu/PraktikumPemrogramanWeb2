@@ -1,0 +1,38 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-image: url();
+	background-size: cover;
+	font-family: "forte";
+}
+ header{
+	text-align: left;
+}
+
+
+section:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+nav{
+	float: left;
+	width: 20%;
+	padding: 10px;
+}
+
+article{
+	height: 650px;
+	float: left;
+	width: 100%;
+	padding: 10px;
+}
+
+footer{
+	text-align: center;
+	color: white;
+	padding: 10px;
+	padding-left: 0px;
+}
